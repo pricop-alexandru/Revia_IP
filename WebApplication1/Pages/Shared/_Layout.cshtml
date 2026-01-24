@@ -1,0 +1,142 @@
+﻿@using Revia.Models
+@using Microsoft.AspNetCore.Identity
+@inject UserManager<ApplicationUser> UserManager
+@inject Revia.Components.PendingCountsViewComponent PendingCountsVC
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] Revia </title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/WebApplication1.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+</head>
+<body class="bg-light text-dark">
+    @* <<< AICI este schimbarea: Fundal alb, Text negru *@
+    <header>
+        @* Navbar rămâne negru (bg-black, navbar-dark) *@
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-black shadow mb-4">
+            <div class="container">
+                <a class="navbar-brand text-light fw-bolder fs-4" asp-area="" asp-page="/Index">Revia</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-white-50" asp-area="" asp-page="/Index">Acasă</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white-50" asp-area="" asp-page="/Locations/Index">Localuri</a>
+                        </li>
+                        @* Link Validare Review-uri (Accent Verde) *@
+                        @if (User.IsInRole("LocalGuide") || User.IsInRole("Admin"))
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-success fw-bold" asp-page="/Reviews/Validate">
+                                   Validare Review-uri
+                                </a>
+                            </li>
+                        }
+
+                        @if (!User.IsInRole("Owner") && !User.IsInRole("LocalGuide") && !User.IsInRole("Admin") && User.Identity.IsAuthenticated)
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-info" asp-area="" asp-page="/OwnerRequests/Create">
+                                    <i class="fas fa-crown me-1"></i> Devino Owner
+                                </a>
+                            </li>
+                        }
+
+                        @* Link-uri Admin (Accent Roșu/Warning) *@
+                        @if (User.IsInRole(UserRoles.Admin))
+                        {
+                            var pending = await PendingCountsVC.GetPendingCountsModelAsync();
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle text-danger fw-bold" href="#" id="adminDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="fas fa-shield-alt me-1"></i> Admin
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="adminDropdown">
+                                    @* Rămâne dark pentru sub-meniu *@
+                                    <li>
+                                        <a class="dropdown-item text-warning fw-bold" asp-page="/Admin/PendingLocations">
+                                            Localuri în așteptare
+                                            @if (pending.PendingLocations > 0)
+                                            {
+                                                <span class="badge bg-warning text-dark ms-2">@pending.PendingLocations</span>
+                                            }
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item text-info fw-bold" asp-page="/Admin/OwnerRequests">
+                                            Cereri Owner
+                                            @if (pending.PendingOwnerRequests > 0)
+                                            {
+                                                <span class="badge bg-primary ms-2">@pending.PendingOwnerRequests</span>
+                                            }
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        }
+                    </ul>
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        @await Component.InvokeAsync("Notifications")
+                        <li class="nav-item">
+                            <a class="nav-link text-white-50" asp-page="/Coupons/MyCoupons">
+                                <i class="fas fa-tags"></i> Cupoane
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-warning" asp-page="/Leaderboard/Index">
+                                <i class="fas fa-trophy"></i> Top 20
+                            </a>
+                        </li>
+                    }
+                    @* _LoginPartial trebuie să aibă text alb pentru a fi vizibil pe navbar-ul negru. Acest lucru a fost deja rezolvat. *@
+                    <partial name="_LoginPartial" />
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container py-4">
+        @* Main este acum pe fundal alb, fără bg-secondary, dar cu un mic padding *@
+        <main role="main" class="pb-3">
+            @* Aici afișăm eventualele mesaje TempData *@
+            @if (TempData["SuccessMessage"] != null)
+            {
+                <div class="alert alert-success alert-dismissible fade show" role="alert">
+                    <i class="fas fa-check-circle me-2"></i> @TempData["SuccessMessage"]
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+            }
+            @if (TempData["ErrorMessage"] != null)
+            {
+                <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                    <i class="fas fa-times-circle me-2"></i> @TempData["ErrorMessage"]
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+            }
+
+            @RenderBody()
+        </main>
+    </div>
+
+    @* Footer pe fundal alb, text negru (sau muted) *@
+    <footer class="border-top footer bg-light text-muted text-center py-3">
+        <div class="container">
+            &copy; 2025 - Revia - <a asp-area="" asp-page="/Privacy" class="text-muted">Confidențialitate</a>
+        </div>
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

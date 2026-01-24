@@ -1,0 +1,48 @@
+﻿@page
+@model Revia.Pages.Admin.PendingLocationsModel
+@{
+    ViewData["Title"] = "Localuri în Așteptare";
+}
+
+<h1>Localuri în Așteptare</h1>
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">@TempData["SuccessMessage"]</div>
+}
+
+@if (Model.PendingLocations.Any())
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Nume</th>
+                <th>Adresă</th>
+                <th>Proprietar</th>
+                <th>Acțiuni</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var loc in Model.PendingLocations)
+            {
+                <tr>
+                    <td>@loc.Name</td>
+                    <td>@loc.Address</td>
+                    <td>@(loc.Owner?.User?.UserName ?? "N/A")</td>
+                    <td>
+                        <form method="post" asp-page-handler="Approve" asp-route-id="@loc.Id" class="d-inline">
+                            <button type="submit" class="btn btn-success btn-sm" onclick="return confirm('Aprobi acest local?');">Aprobă</button>
+                        </form>
+                        <form method="post" asp-page-handler="Reject" asp-route-id="@loc.Id" class="d-inline ms-2">
+                            <button type="submit" class="btn btn-danger btn-sm" onclick="return confirm('Respingi acest local?');">Respinge</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p class="alert alert-info">Nu există localuri în așteptare.</p>
+}

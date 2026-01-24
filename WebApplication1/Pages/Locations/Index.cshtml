@@ -1,0 +1,89 @@
+﻿@page
+@model Revia.Pages.Locations.IndexModel
+@{
+    ViewData["Title"] = "Localuri";
+}
+
+<div class="text-center mb-5">
+    <h1 class="display-4">Descoperă Localuri</h1>
+    <p class="text-muted">Vezi ce recomandă comunitatea Revia.</p>
+</div>
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success alert-dismissible fade show text-center">
+        @TempData["SuccessMessage"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+    </div>
+}
+
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger alert-dismissible fade show text-center">
+        @TempData["ErrorMessage"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+    </div>
+}
+<div class="d-flex justify-content-end mb-3">
+    <div class="btn-group">
+        <a asp-page="./Index" asp-route-sortOrder="Rating" class="btn btn-outline-dark @(ViewData["CurrentSort"] as string == "Rating" ? "active" : "")">
+            <i class="fas fa-star me-1"></i> Top Rating
+        </a>
+        <a asp-page="./Index" asp-route-sortOrder="" class="btn btn-outline-dark @(string.IsNullOrEmpty(ViewData["CurrentSort"] as string) ? "active" : "")">
+            <i class="fas fa-sort-alpha-down me-1"></i> A-Z
+        </a>
+    </div>
+</div>
+@if (Model.Locations.Any())
+{
+    <div class="row">
+        @foreach (var vm in Model.Locations)
+        {
+            var item = vm.Location;
+            <div class="col-md-4 mb-4">
+                <div class="card location-card h-100 position-relative">
+                    <div class="card-body">
+                        <h5 class="card-title">@item.Name</h5>
+                        <p class="card-text text-secondary">
+                            <small>📍 @item.Address</small>
+                        </p>
+                        <div class="d-flex justify-content-between align-items-center mt-3">
+                            <span class="badge bg-light text-dark border">
+                                @item.Reviews.Count recenzii
+                            </span>
+                            <a asp-page="./Details" asp-route-id="@item.Id" class="btn btn-sm btn-outline-primary">
+                                Vezi Detalii
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Buton Ștergere – vizibil doar dacă CanDelete = true -->
+                    @if (vm.CanDelete)
+                    {
+                        <div class="position-absolute top-0 end-0 p-2">
+                            <form method="post"
+                                  asp-page-handler="@(User.IsInRole("Admin") ? "Delete" : "DeleteOwner")"
+                                  asp-route-id="@item.Id" class="d-inline">
+                                <button type="submit"
+                                        class="btn @(User.IsInRole("Admin") ? "btn-danger" : "btn-outline-danger") btn-sm rounded-circle shadow"
+                                        title="Șterge localul"
+                                        onclick="return confirm('Ești sigur că vrei să ȘTERGI definitiv localul „@item.Name”? Toate recenziile vor fi șterse!');">
+                                    🗑️
+                                </button>
+                            </form>
+                        </div>
+                    }
+                </div>
+            </div>
+        }
+    </div>
+}
+else
+{
+    <div class="text-center my-5 py-5">
+        <h3 class="text-muted">Încă nu avem localuri aprobate</h3>
+        <p class="lead text-muted">
+            Proprietarii adaugă localuri noi în fiecare zi. Revino curând! ☕
+        </p>
+    </div>
+}

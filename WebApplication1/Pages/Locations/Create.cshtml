@@ -1,0 +1,58 @@
+﻿@page
+@model Revia.Pages.Locations.CreateModel
+@{
+    ViewData["Title"] = "Adaugă Local Nou";
+}
+
+<h1>Adaugă Local Nou</h1>
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success alert-dismissible fade show">
+        @TempData["SuccessMessage"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+    </div>
+}
+
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger alert-dismissible fade show">
+        @TempData["ErrorMessage"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+    </div>
+}
+
+<form method="post">
+    <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+    <div class="mb-3">
+        <label asp-for="Input.Name" class="form-label">Nume local *</label>
+        <input asp-for="Input.Name" class="form-control" />
+        <span asp-validation-for="Input.Name" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Input.Description" class="form-label">Descriere</label>
+        <textarea asp-for="Input.Description" class="form-control" rows="4"></textarea>
+        <span asp-validation-for="Input.Description" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Input.Address" class="form-label">Adresă *</label>
+        <input asp-for="Input.Address" class="form-control" />
+        <span asp-validation-for="Input.Address" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Input.ImageUrl" class="form-label">URL Imagine (opțional)</label>
+        <input asp-for="Input.ImageUrl" class="form-control" />
+        <span asp-validation-for="Input.ImageUrl" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-success">Trimite spre aprobare</button>
+    <a asp-page="/Index" class="btn btn-secondary ms-2">Anulează</a>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

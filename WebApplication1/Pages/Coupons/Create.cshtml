@@ -1,0 +1,52 @@
+﻿@page
+@model Revia.Pages.Coupons.CreateModel
+@{
+    ViewData["Title"] = "Creează Cupon";
+}
+
+<div class="container mt-4">
+    <h2>Creează Cupon pentru @Model.LocationName</h2>
+    <hr />
+    <form method="post">
+        <input type="hidden" asp-for="LocationId" />
+
+        <div class="mb-3">
+            <label asp-for="Input.Title" class="form-label">Titlu Ofertă *</label>
+            <input asp-for="Input.Title" class="form-control" placeholder="Ex: 1+1 Gratis la Burgeri" />
+            <span asp-validation-for="Input.Title" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Input.Description" class="form-label">Descriere</label>
+            <textarea asp-for="Input.Description" class="form-control" rows="3"></textarea>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Input.ExpirationDate" class="form-label">Data Expirării *</label>
+            <input asp-for="Input.ExpirationDate" class="form-control" type="date" />
+        </div>
+
+        <div class="card p-3 bg-light mb-3">
+            <div class="form-check form-switch">
+                <input class="form-check-input" type="checkbox" id="thresholdCheck" asp-for="Input.HasThreshold" onchange="toggleThreshold()">
+                <label class="form-check-label" for="thresholdCheck">Necesită un număr minim de recenzii?</label>
+            </div>
+            <div id="thresholdInput" style="display:none;" class="mt-2">
+                <label>Număr total recenzii necesare:</label>
+                <input asp-for="Input.ThresholdCount" type="number" min="1" class="form-control w-25" />
+                <small class="text-muted">Implicit, userul primește cuponul la prima recenzie aprobată.</small>
+            </div>
+        </div>
+
+        <button type="submit" class="btn btn-success">Creează Cupon</button>
+        <a asp-page="/Locations/Details" asp-route-id="@Model.LocationId" class="btn btn-secondary">Anulează</a>
+    </form>
+</div>
+
+<script>
+    function toggleThreshold() {
+        var check = document.getElementById('thresholdCheck');
+        var div = document.getElementById('thresholdInput');
+        div.style.display = check.checked ? 'block' : 'none';
+    }
+</script>

@@ -1,0 +1,42 @@
+﻿@page
+@model Revia.Pages.OwnerRequests.CreateModel
+@{
+    ViewData["Title"] = "Cere să devii Owner";
+}
+
+<h1>Cere să devii Owner</h1>
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">@TempData["SuccessMessage"]</div>
+}
+
+<p>Completează formularul pentru a trimite o cerere de a deveni proprietar de localuri.</p>
+
+<form method="post">
+    <div class="form-group mb-3">
+        <label>Nume utilizator:</label>
+        <input type="text" value="@Model.UserFullName" class="form-control" readonly />
+    </div>
+
+    <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+    <div class="form-group mb-3">
+        <label asp-for="Input.CompanyName" class="form-label"></label>
+        <input asp-for="Input.CompanyName" class="form-control" />
+        <span asp-validation-for="Input.CompanyName" class="text-danger"></span>
+    </div>
+
+    <div class="form-group mb-3">
+        <label asp-for="Input.TaxIdentificationNumber" class="form-label">CUI (opțional)</label>
+        <input asp-for="Input.TaxIdentificationNumber" class="form-control" />
+        <span asp-validation-for="Input.TaxIdentificationNumber" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Trimite cerere</button>
+    <a asp-page="/Index" class="btn btn-secondary ms-2">Anulează</a>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

@@ -1,0 +1,34 @@
+﻿@model List<Revia.Models.Notification>
+
+<li class="nav-item dropdown">
+    <a class="nav-link text-white position-relative" href="#" id="notifDropdown" role="button" data-bs-toggle="dropdown">
+        <i class="fas fa-bell"></i>
+        @if (Model.Count > 0)
+        {
+            <span class="position-absolute top-10 start-90 translate-middle badge rounded-pill bg-danger" style="font-size: 0.6rem;">
+                @Model.Count
+            </span>
+        }
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end dropdown-menu-dark" aria-labelledby="notifDropdown" style="width: 300px;">
+        <li class="dropdown-header">Notificări</li>
+        @if (Model.Any())
+        {
+            foreach (var notif in Model)
+            {
+                <li>
+                    <a class="dropdown-item text-wrap small" href="#">
+                        <i class="fas fa-info-circle text-info me-1"></i> @notif.Text
+                        <br><span class="text-muted" style="font-size: 0.7rem;">@notif.Date.ToString("dd.MM HH:mm")</span>
+                    </a>
+                </li>
+                <li><hr class="dropdown-divider"></li>
+            }
+            @* Aici am putea pune un link către o pagină "Mark all as read" *@
+        }
+        else
+        {
+            <li><span class="dropdown-item text-muted">Nu ai notificări noi.</span></li>
+        }
+    </ul>
+</li>

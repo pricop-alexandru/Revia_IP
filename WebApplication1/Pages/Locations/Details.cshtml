@@ -1,0 +1,214 @@
+﻿@page
+@model Revia.Pages.Locations.DetailsModel
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<Revia.Models.ApplicationUser> SignInManager
+@{
+    ViewData["Title"] = Model.Location.Name;
+}
+<div class="container mt-4">
+
+    @* --- JUMBOTRON (Header Local) --- *@
+
+    @* Verificăm dacă există ImageUrl. Dacă DA, îl folosim pentru stilizare. *@
+    @if (!string.IsNullOrEmpty(Model.Location.ImageUrl))
+    {
+        <div class="p-5 mb-4 rounded-3 shadow-lg text-white"
+             style="background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('@Model.Location.ImageUrl');
+                        background-size: cover;
+                        background-position: center;
+                        min-height: 300px;">
+            <div class="container-fluid py-3">
+                <h1 class="display-5 fw-bold text-white">@Model.Location.Name</h1>
+                <div class="d-flex align-items-center mb-3">
+                    <div class="me-2 text-warning fs-4">
+                        @* Logică simplă de afișare stele pline *@
+                        @for (int i = 1; i <= 5; i++)
+                        {
+                            if (i <= Math.Round(Model.Location.AverageRating))
+                            {
+                                <i class="fas fa-star"></i>
+                            }
+                            else
+                            {
+                                <i class="far fa-star text-secondary"></i>
+                            }
+                        }
+                    </div>
+                    <span class="fw-bold fs-5 me-2">@Model.Location.AverageRating</span>
+                    <span class="text-muted">(@Model.Location.ReviewCount recenzii)</span>
+                </div>
+                <p class="lead text-light">
+                    <i class="fas fa-map-marker-alt me-1"></i> @Model.Location.Address
+                </p>
+                @if (!string.IsNullOrEmpty(Model.Location.Description))
+                {
+                    <p class="text-white-75 border-start border-primary ps-3 pt-2">
+                        @Model.Location.Description
+                    </p>
+                }
+
+                @* Rămâne text-white pentru că fundalul e închis din cauza gradientului *@
+                @* Aici vine logica pentru butonul de recenzie/login *@
+                @if (SignInManager.IsSignedIn(User))
+                {
+                    bool showReviewButton = !Model.IsAdmin && !Model.IsOwnerOfLocation;
+
+                    @if (showReviewButton)
+                    {
+                        <a asp-page="/Reviews/Create" asp-route-locationId="@Model.Location.Id" class="btn btn-primary btn-lg mt-2 shadow">
+                            <i class="fas fa-star me-2"></i> Scrie o recenzie
+                        </a>
+                        <a asp-page="/Coupons/Index" asp-route-locationId="@Model.Location.Id" class="btn btn-warning btn-lg mt-2 shadow text-dark">
+                            <i class="fas fa-gift me-2"></i> Vezi Oferte
+                        </a>
+                    }
+                    else
+                    {
+                        @if (Model.IsAdmin)
+                        {
+                            <p class="text-white-50 mt-2"><i class="fas fa-shield-alt me-1"></i> Adminii nu pot scrie recenzii.</p>
+                        }
+                        else if (Model.IsOwnerOfLocation)
+                        {
+                            <p class="text-white-50 mt-2"><i class="fas fa-crown me-1"></i> Nu poți scrie recenzii la propriul tău local.</p>
+                        }
+                    }
+                }
+                else
+                {
+                    <a asp-area="Identity" asp-page="/Account/Login" class="btn btn-outline-light btn-lg mt-2 shadow">
+                        <i class="fas fa-sign-in-alt me-1"></i> Autentifică-te pentru a scrie o recenzie
+                    </a>
+                }
+            </div>
+        </div>
+    }
+    else
+    {
+        @* Dacă NU există ImageUrl, folosim Jumbotron-ul standard (Alb) *@
+        <div class="p-5 mb-4 bg-white rounded-3 border shadow-sm">
+            <div class="container-fluid py-3">
+                <h1 class="display-5 fw-bold text-dark">@Model.Location.Name</h1>
+                <p class="text-muted">📍 @Model.Location.Address</p>
+                @if (!string.IsNullOrEmpty(Model.Location.Description))
+                {
+                    <p class="text-dark-75 border-start border-primary ps-3 pt-2">
+                        @Model.Location.Description
+                    </p>
+                }
+
+                @* Aici vine logica pentru butonul de recenzie/login *@
+                @if (SignInManager.IsSignedIn(User))
+                {
+                    bool showReviewButton = !Model.IsAdmin && !Model.IsOwnerOfLocation;
+
+                    @if (showReviewButton)
+                    {
+                        <a asp-page="/Reviews/Create" asp-route-locationId="@Model.Location.Id" class="btn btn-primary btn-lg mt-2 shadow">
+                            <i class="fas fa-star me-2"></i> Scrie o recenzie
+                        </a>
+                    }
+                    else
+                    {
+                        @if (Model.IsAdmin)
+                        {
+                            <p class="text-muted mt-2"><i class="fas fa-shield-alt me-1"></i> Adminii nu pot scrie recenzii.</p>
+                        }
+                        else if (Model.IsOwnerOfLocation)
+                        {
+                            <p class="text-muted mt-2"><i class="fas fa-crown me-1"></i> Nu poți scrie recenzii la propriul tău local.</p>
+                        }
+                    }
+                }
+                else
+                {
+                    <a asp-area="Identity" asp-page="/Account/Login" class="btn btn-outline-dark mt-2 shadow">
+                        <i class="fas fa-sign-in-alt me-1"></i> Autentifică-te pentru a scrie o recenzie
+                    </a>
+                }
+            </div>
+        </div>
+    }
+    @* --- END JUMBOTRON --- *@
+
+    @if (Model.IsOwnerOfLocation)
+    {
+        <div class="mt-3 text-end">
+            <a asp-page="/Coupons/Index" asp-route-locationId="@Model.Location.Id" class="btn btn-warning shadow-sm me-2">
+                <i class="fas fa-ticket-alt me-1"></i> Gestionează Cupoane
+            </a>
+
+            <a asp-page="/Locations/Edit" asp-route-id="@Model.Location.Id" class="btn btn-outline-secondary shadow-sm">
+                <i class="fas fa-pencil-alt me-1"></i> Editează localul
+            </a>
+        </div>
+    }
+    <hr />
+
+    <h3 class="text-dark">Recenzii (@Model.Location.Reviews.Count)</h3>
+
+    @if (Model.Location.Reviews.Count > 0)
+    {
+        <div class="row">
+            @foreach (var review in Model.Location.Reviews)
+            {
+                <div class="col-md-12 mb-3">
+                    @* Card recenzie pe fundal alb *@
+                    <div class="card bg-white border shadow-sm">
+                        <div class="card-body text-dark">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <h5 class="card-title mb-0 text-dark fw-bold">
+                                    <i class="fas fa-user-circle me-1 text-info"></i> @review.User.FirstName @review.User.LastName
+                                </h5>
+                                <div>
+                                    <small class="text-muted"><i class="far fa-clock me-1"></i> @review.Date.ToShortDateString()</small>
+                                    @if (review.User.Id == Model.CurrentUserId)
+                                    {
+                                        <form asp-page-handler="DeleteReview" asp-route-id="@Model.Location.Id" asp-route-reviewId="@review.Id" method="post" class="d-inline ms-2">
+                                            <button type="submit" class="btn btn-danger btn-sm" onclick="return confirm('Ești sigur că vrei să ștergi această recenzie?');">
+                                                <i class="fas fa-trash-alt"></i> Șterge
+                                            </button>
+                                        </form>
+                                    }
+                                </div>
+                            </div>
+                            <div class="my-2">
+                                @for (int i = 0; i < review.Rating; i++)
+                                {
+                                    <span class="text-warning fs-5">★</span>
+                                }
+                                @for (int i = review.Rating; i < 5; i++)
+                                {
+                                    <span class="text-muted fs-5">★</span>
+                                }
+                            </div>
+                            <div class="mb-2">
+                                @if (review.Status == "Approved")
+                                {
+                                    <span class="badge bg-success py-1"><i class="fas fa-check-circle me-1"></i> Validat</span>
+                                    <span class="fw-bold text-success ms-2">+ @review.XPAwarded XP</span>
+                                }
+                                else if (review.Status == "Rejected")
+                                {
+                                    <span class="badge bg-danger py-1"><i class="fas fa-times-circle me-1"></i> Respins</span>
+                                }
+                                else
+                                {
+                                    <span class="badge bg-warning text-dark py-1"><i class="fas fa-hourglass-half me-1"></i> În așteptare</span>
+                                    <span class="text-muted fst-italic ms-1 small">(XP se acordă după validare)</span>
+                                }
+                            </div>
+                            <p class="card-text border-start border-secondary ps-3">@review.Text</p>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+    else
+    {
+        <div class="alert alert-info bg-light text-muted border-info">
+            <i class="fas fa-info-circle me-2"></i> Nu există încă recenzii pentru această locație. Fii primul care scrie una!
+        </div>
+    }
+</div>

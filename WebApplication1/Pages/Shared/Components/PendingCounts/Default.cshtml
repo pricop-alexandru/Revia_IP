@@ -1,0 +1,12 @@
+﻿@model Revia.Components.PendingCountsViewModel
+
+@{
+    var total = Model.PendingLocations + Model.PendingOwnerRequests;
+}
+
+@if (total > 0)
+{
+    <span class="badge bg-danger rounded-pill ms-2">
+        @total
+    </span>
+}

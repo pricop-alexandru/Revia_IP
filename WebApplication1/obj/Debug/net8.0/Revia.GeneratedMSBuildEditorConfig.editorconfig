@@ -1,0 +1,145 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Revia
+build_property.RootNamespace = Revia
+build_property.ProjectDir = C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Alegz\source\repos\Proiect IP\WebApplication1
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/Alegz/source/repos/Proiect IP/WebApplication1/Areas/Identity/Pages/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alegz/source/repos/Proiect IP/WebApplication1/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alegz/source/repos/Proiect IP/WebApplication1/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alegz/source/repos/Proiect IP/WebApplication1/Areas/Identity/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alegz/source/repos/Proiect IP/WebApplication1/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alegz/source/repos/Proiect IP/WebApplication1/Pages/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alegz/source/repos/Proiect IP/WebApplication1/Pages/Admin/OwnerRequests.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cT3duZXJSZXF1ZXN0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alegz/source/repos/Proiect IP/WebApplication1/Pages/Admin/PendingLocations.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cUGVuZGluZ0xvY2F0aW9ucy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alegz/source/repos/Proiect IP/WebApplication1/Pages/Coupons/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291cG9uc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alegz/source/repos/Proiect IP/WebApplication1/Pages/Coupons/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291cG9uc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alegz/source/repos/Proiect IP/WebApplication1/Pages/Coupons/MyCoupons.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291cG9uc1xNeUNvdXBvbnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alegz/source/repos/Proiect IP/WebApplication1/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alegz/source/repos/Proiect IP/WebApplication1/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alegz/source/repos/Proiect IP/WebApplication1/Pages/Leaderboard/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGVhZGVyYm9hcmRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alegz/source/repos/Proiect IP/WebApplication1/Pages/Locations/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9jYXRpb25zXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alegz/source/repos/Proiect IP/WebApplication1/Pages/Locations/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9jYXRpb25zXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alegz/source/repos/Proiect IP/WebApplication1/Pages/Locations/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9jYXRpb25zXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alegz/source/repos/Proiect IP/WebApplication1/Pages/Locations/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9jYXRpb25zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alegz/source/repos/Proiect IP/WebApplication1/Pages/OwnerRequests/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3duZXJSZXF1ZXN0c1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alegz/source/repos/Proiect IP/WebApplication1/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alegz/source/repos/Proiect IP/WebApplication1/Pages/Reviews/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmV2aWV3c1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alegz/source/repos/Proiect IP/WebApplication1/Pages/Reviews/Validate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmV2aWV3c1xWYWxpZGF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alegz/source/repos/Proiect IP/WebApplication1/Pages/Shared/Components/Notifications/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXENvbXBvbmVudHNcTm90aWZpY2F0aW9uc1xEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alegz/source/repos/Proiect IP/WebApplication1/Pages/Shared/Components/PendingCounts/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXENvbXBvbmVudHNcUGVuZGluZ0NvdW50c1xEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alegz/source/repos/Proiect IP/WebApplication1/Pages/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alegz/source/repos/Proiect IP/WebApplication1/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alegz/source/repos/Proiect IP/WebApplication1/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alegz/source/repos/Proiect IP/WebApplication1/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alegz/source/repos/Proiect IP/WebApplication1/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-zzi7rbdohu

@@ -1,0 +1,138 @@
+﻿@page
+@model Revia.Pages.Leaderboard.IndexModel
+@{
+    ViewData["Title"] = "Clasament";
+}
+
+<style>
+    .podium-container {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        height: 350px;
+        margin-bottom: 2rem;
+    }
+
+    .podium-step {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+        color: white;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        padding: 1rem;
+        text-align: center;
+        position: relative;
+    }
+
+    .rank-1 {
+        background: linear-gradient(to bottom, #FFD700, #FDB931);
+        height: 100%;
+        width: 140px;
+        z-index: 3;
+        order: 2;
+        box-shadow: 0 0 20px rgba(255, 215, 0, 0.5);
+    }
+
+    .rank-2 {
+        background: linear-gradient(to bottom, #C0C0C0, #A9A9A9);
+        height: 75%;
+        width: 120px;
+        z-index: 2;
+        order: 1;
+        margin-right: -10px;
+    }
+
+    .rank-3 {
+        background: linear-gradient(to bottom, #CD7F32, #8B4513);
+        height: 55%;
+        width: 120px;
+        z-index: 1;
+        order: 3;
+        margin-left: -10px;
+    }
+
+    .podium-avatar {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        background: #fff;
+        margin-bottom: 10px;
+        border: 3px solid rgba(255,255,255,0.5);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        color: #333;
+        font-size: 1.5rem;
+    }
+
+    .xp-bar-container {
+        width: 100%;
+        background: #e9ecef;
+        border-radius: 5px;
+        height: 10px;
+        overflow: hidden;
+        margin-top: 5px;
+    }
+
+    .xp-bar-fill {
+        height: 100%;
+        background: #0d6efd;
+    }
+</style>
+
+<div class="container text-center mt-4">
+    <h1 class="mb-5 fw-bold"><i class="fas fa-trophy text-warning"></i> Top Comunitate</h1>
+
+    @if (Model.TopUsers.Count >= 3)
+    {
+        <div class="podium-container">
+            <div class="podium-step rank-2">
+                <div class="podium-avatar">2</div>
+                <div class="fw-bold">@Model.TopUsers[1].FirstName</div>
+                <small>@Model.TopUsers[1].XP XP</small>
+                <div class="badge bg-dark mt-1">Lvl @Model.TopUsers[1].Level</div>
+            </div>
+            <div class="podium-step rank-1">
+                <div class="fas fa-crown fa-2x mb-2 text-white"></div>
+                <div class="podium-avatar" style="width: 80px; height: 80px; font-size: 2rem;">1</div>
+                <div class="fw-bold fs-5">@Model.TopUsers[0].FirstName</div>
+                <small>@Model.TopUsers[0].XP XP</small>
+                <div class="badge bg-dark mt-1">Lvl @Model.TopUsers[0].Level</div>
+            </div>
+            <div class="podium-step rank-3">
+                <div class="podium-avatar">3</div>
+                <div class="fw-bold">@Model.TopUsers[2].FirstName</div>
+                <small>@Model.TopUsers[2].XP XP</small>
+                <div class="badge bg-dark mt-1">Lvl @Model.TopUsers[2].Level</div>
+            </div>
+        </div>
+    }
+
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            @for (int i = 3; i < Model.TopUsers.Count; i++)
+            {
+                var u = Model.TopUsers[i];
+                <div class="card mb-2 shadow-sm border-0">
+                    <div class="card-body d-flex align-items-center">
+                        <div class="fw-bold fs-4 text-muted me-3" style="width: 40px;">#@(i + 1)</div>
+                        <div class="flex-grow-1 text-start">
+                            <h5 class="mb-0 fw-bold">@u.FirstName @u.LastName</h5>
+                            <div class="d-flex align-items-center">
+                                <small class="me-2 text-primary fw-bold">Lvl @u.Level</small>
+                                <div class="progress flex-grow-1" style="height: 6px;">
+                                    @* Bara pur vizuală, procentul e arbitrar aici sau poți calcula cu GamificationService logic *@
+                                    <div class="progress-bar" role="progressbar" style="width: 70%"></div>
+                                </div>
+                                <small class="ms-2 text-muted">@u.XP XP</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>

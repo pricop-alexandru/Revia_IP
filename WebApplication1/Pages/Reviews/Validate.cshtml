@@ -1,0 +1,88 @@
+﻿@page
+@model Revia.Pages.Reviews.ValidateModel
+@{
+    ViewData["Title"] = "Validare Recenzii";
+}
+
+<div class="container mt-4">
+    <h2 class="text-black mb-3">
+        <i class="fas fa-clipboard-check me-2 text-primary"></i> Validare Recenzii
+    </h2>
+    <p class="text-black-50 lead">
+        Revizuiește și aprobă recenziile trimise. Fiecare aprobare acordă XP autorului și validatorului.
+    </p>
+    <hr class="border-secondary mb-4" />
+
+    @if (Model.PendingReviews.Count == 0)
+    {
+        @* Alertă de succes pe tema întunecată *@
+        <div class="alert alert-success bg-dark text-success border-success shadow-sm">
+            <i class="fas fa-thumbs-up me-2"></i> Toate recenziile au fost verificate! Nu există nimic în așteptare.
+        </div>
+    }
+    else
+    {
+        <div class="row">
+            @foreach (var review in Model.PendingReviews)
+            {
+                <div class="col-md-6 mb-4">
+                    @* Card întunecat pentru fiecare recenzie *@
+                    <div class="card h-100 shadow-lg bg-secondary bg-opacity-10 border-secondary">
+
+                        @* Header: Nume Autor și Dată *@
+                        <div class="card-header bg-black border-secondary border-bottom d-flex justify-content-between align-items-center">
+                            <span class="fw-bold text-white fs-5">
+                                <i class="fas fa-user-tag me-1 text-info"></i> @review.User.FirstName @review.User.LastName
+                            </span>
+                            <span class="text-white-50 small">
+                                <i class="far fa-clock me-1"></i> @review.Date.ToShortDateString()
+                            </span>
+                        </div>
+
+                        <div class="card-body text-black">
+                            @* Numele Localului *@
+                            <h5 class="card-title text-primary fw-bold mb-3">
+                                <i class="fas fa-location-dot me-1"></i> @review.Location.Name
+                            </h5>
+
+                            @* Textul Recenziei *@
+                            <p class="card-text border-start border-primary ps-3 mb-3 text-white-75">
+                                **"@review.Text"**
+                            </p>
+
+                            @* Rating-ul (Stele mai vizibile) *@
+                            <div class="fs-4 text-warning">
+                                @for (int i = 0; i < review.Rating; i++)
+                                {
+                                    <span>★</span>
+                                }
+                                @for (int i = review.Rating; i < 5; i++)
+                                {
+                                    <span class="text-white-50">★</span>
+                                }
+                            </div>
+                        </div>
+
+                        @* Footer: Butoane de Validare (Culori definite) *@
+                        <div class="card-footer bg-black border-top border-secondary d-flex gap-3 p-3">
+
+                            @* Buton Aprobă (Verde) *@
+                            <form method="post" asp-page-handler="Approve" asp-route-id="@review.Id" class="w-50">
+                                <button type="submit" class="btn btn-success w-100 fw-bold shadow-sm">
+                                    <i class="fas fa-check me-1"></i> Aprobă (+50 XP)
+                                </button>
+                            </form>
+
+                            @* Buton Respinge (Roșu) *@
+                            <form method="post" asp-page-handler="Reject" asp-route-id="@review.Id" class="w-50">
+                                <button type="submit" class="btn btn-outline-danger w-100 fw-bold shadow-sm">
+                                    <i class="fas fa-times me-1"></i> Respinge
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+</div>
