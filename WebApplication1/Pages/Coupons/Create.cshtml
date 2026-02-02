@@ -4,6 +4,8 @@
     ViewData["Title"] = "Creează Cupon";
 }
 
+<div asp-validation-summary="All" class="text-danger"></div>
+
 <div class="container mt-4">
     <h2>Creează Cupon pentru @Model.LocationName</h2>
     <hr />
@@ -22,8 +24,15 @@
         </div>
 
         <div class="mb-3">
-            <label asp-for="Input.ExpirationDate" class="form-label">Data Expirării *</label>
+            <label asp-for="Input.ExpirationDate" class="form-label">Data Expirării (Opțional)</label>
             <input asp-for="Input.ExpirationDate" class="form-control" type="date" />
+            <small class="text-muted">Dacă lași gol, va expira în 30 de zile.</small>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Input.RequiredLevel" class="form-label text-primary fw-bold">Nivel Minim Necesar (Exclusivitate)</label>
+            <input asp-for="Input.RequiredLevel" type="number" class="form-control" min="1" value="1" />
+            <small class="text-muted">Setează un nivel mai mare (ex: 5 sau 10) pentru a face oferta exclusivă.</small>
         </div>
 
         <div class="card p-3 bg-light mb-3">
@@ -32,9 +41,9 @@
                 <label class="form-check-label" for="thresholdCheck">Necesită un număr minim de recenzii?</label>
             </div>
             <div id="thresholdInput" style="display:none;" class="mt-2">
-                <label>Număr total recenzii necesare:</label>
-                <input asp-for="Input.ThresholdCount" type="number" min="1" class="form-control w-25" />
-                <small class="text-muted">Implicit, userul primește cuponul la prima recenzie aprobată.</small>
+                <label>Număr total recenzii necesare (Opțional):</label>
+                <input asp-for="Input.ThresholdCount" type="number" min="1" class="form-control w-25" placeholder="1" />
+                <small class="text-muted">Dacă e gol, se va seta automat la 1.</small>
             </div>
         </div>
 

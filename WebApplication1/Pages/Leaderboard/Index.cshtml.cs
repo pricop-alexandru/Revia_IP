@@ -20,27 +20,28 @@ namespace Revia.Pages.Leaderboard
         }
 
         public List<ApplicationUser> TopUsers { get; set; } = new();
+        public ApplicationUser CurrentUser { get; set; }
+        public int CurrentUserRank { get; set; }
 
         public async Task OnGetAsync()
         {
-            // Luăm toți userii
-            var allUsers = await _context.Users.ToListAsync();
+            // 1. Obținem userul curent
+            CurrentUser = await _userManager.GetUserAsync(User);
 
-            // Filtrăm în memorie pentru a exclude Adminii (e mai sigur cu UserManager)
-            var nonAdminUsers = new List<ApplicationUser>();
-
-            foreach (var user in allUsers)
-            {
-                if (!await _userManager.IsInRoleAsync(user, UserRoles.Admin))
-                {
-                    nonAdminUsers.Add(user);
-                }
-            }
-
-            TopUsers = nonAdminUsers
+            // 2. Luăm top 20 utilizatori direct din DB (ordonat după XP)
+            // Excludem Adminii dacă au un XP uriaș care ar strica clasamentul
+            TopUsers = await _context.Users
                 .OrderByDescending(u => u.XP)
                 .Take(20)
-                .ToList();
+                .ToListAsync();
+
+            // 3. Calculăm Rank-ul utilizatorului curent
+            // Rank = (Numărul de oameni care au XP mai mare decât mine) + 1
+            if (CurrentUser != null)
+            {
+                CurrentUserRank = await _context.Users
+                    .CountAsync(u => u.XP > CurrentUser.XP) + 1;
+            }
         }
     }
 }

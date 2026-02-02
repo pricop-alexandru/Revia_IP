@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Alegz\\source\\repos\\Proiect IP\\WebApplication1\\Revia.csproj": {}
+    "D:\\Faculty\\An 4\\Sem 1\\IP\\Proiect IP - Copy\\Revia\\WebApplication1\\Revia.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Alegz\\source\\repos\\Proiect IP\\WebApplication1\\Revia.csproj": {
+    "D:\\Faculty\\An 4\\Sem 1\\IP\\Proiect IP - Copy\\Revia\\WebApplication1\\Revia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alegz\\source\\repos\\Proiect IP\\WebApplication1\\Revia.csproj",
+        "projectUniqueName": "D:\\Faculty\\An 4\\Sem 1\\IP\\Proiect IP - Copy\\Revia\\WebApplication1\\Revia.csproj",
         "projectName": "Revia",
-        "projectPath": "C:\\Users\\Alegz\\source\\repos\\Proiect IP\\WebApplication1\\Revia.csproj",
-        "packagesPath": "C:\\Users\\Alegz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alegz\\source\\repos\\Proiect IP\\WebApplication1\\obj\\",
+        "projectPath": "D:\\Faculty\\An 4\\Sem 1\\IP\\Proiect IP - Copy\\Revia\\WebApplication1\\Revia.csproj",
+        "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
+        "outputPath": "D:\\Faculty\\An 4\\Sem 1\\IP\\Proiect IP - Copy\\Revia\\WebApplication1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Alegz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Alex\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -100,7 +101,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

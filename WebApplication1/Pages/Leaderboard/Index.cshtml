@@ -117,31 +117,32 @@
             @for (int i = 3; i < Model.TopUsers.Count; i++)
             {
                 var u = Model.TopUsers[i];
-                // --- CALCULĂM PROGRESUL ---
-    var progress = GamificationService.GetLevelProgress(u);
-    var percentage = (int)progress.Percentage; // Convertim la int pentru CSS
-    if (percentage > 100) percentage = 100;
-    // ---------------------------
 
-    <div class="card mb-2 shadow-sm border-0">
-        <div class="card-body d-flex align-items-center">
-            <div class="fw-bold fs-4 text-muted me-3" style="width: 40px;">#@(i + 1)</div>
-            <div class="flex-grow-1 text-start">
-                <h5 class="mb-0 fw-bold">@u.FirstName @u.LastName</h5>
-                <div class="d-flex align-items-center">
-                    <small class="me-2 text-primary fw-bold">Lvl @u.Level</small>
-                    
-                    <div class="progress flex-grow-1" style="height: 6px;">
-                        <div class="progress-bar" role="progressbar" 
-                             style="width: @percentage%">
+                // --- CALCULĂM PROGRESUL ---
+                var progress = GamificationService.GetLevelProgress(u);
+                var percentage = (int)progress.Percentage; // Convertim la int pentru CSS
+                if (percentage > 100) percentage = 100;
+                // ---------------------------
+
+                <div class="card mb-2 shadow-sm border-0">
+                    <div class="card-body d-flex align-items-center">
+                        <div class="fw-bold fs-4 text-muted me-3" style="width: 40px;">#@(i + 1)</div>
+                        <div class="flex-grow-1 text-start">
+                            <h5 class="mb-0 fw-bold">@u.FirstName @u.LastName</h5>
+                            <div class="d-flex align-items-center">
+                                <small class="me-2 text-primary fw-bold">Lvl @u.Level</small>
+
+                                <div class="progress flex-grow-1" style="height: 6px;">
+                                    <div class="progress-bar" role="progressbar"
+                                         style="width: @percentage%">
+                                    </div>
+                                </div>
+
+                                <small class="ms-2 text-muted">@u.XP XP</small>
+                            </div>
                         </div>
                     </div>
-                    
-                    <small class="ms-2 text-muted">@u.XP XP</small>
                 </div>
-            </div>
-        </div>
-    </div>
             }
         </div>
     </div>

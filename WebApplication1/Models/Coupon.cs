@@ -11,8 +11,8 @@ namespace Revia.Models
         [Required]
         public string Title { get; set; } // Ex: "1+1 Gratis"
 
-        public string Description { get; set; } // Detalii
-
+        public string? Description { get; set; } // Detalii
+        public int RequiredLevel { get; set; } = 1;
         [Required]
         public DateTime ExpirationDate { get; set; }
 
@@ -26,8 +26,8 @@ namespace Revia.Models
         public int LocationId { get; set; }
 
         [ForeignKey("LocationId")]
-        public virtual Location Location { get; set; }
+        public virtual Location? Location { get; set; }
 
-        public virtual ICollection<UserCoupon> UserCoupons { get; set; }
+        public virtual ICollection<UserCoupon>? UserCoupons { get; set; }
     }
 }

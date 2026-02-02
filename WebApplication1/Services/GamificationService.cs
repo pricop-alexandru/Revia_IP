@@ -118,28 +118,27 @@ namespace Revia.Services
         }
         public async Task CheckAndAwardCouponsAsync(string userId, int locationId, bool justApproved = false)
         {
-            // 1. Verificăm dacă userul a scris MĂCAR O recenzie aprobată aici (Condiția implicită)
+            // Obținem utilizatorul pentru a-i verifica nivelul actual
+            var user = await _context.Users.FindAsync(userId);
+            if (user == null) return;
+
+            // 1. Verificăm dacă userul a scris MĂCAR O recenzie aprobată aici
             bool hasUserContributed = await _context.Reviews
                 .AnyAsync(r => r.UserId == userId && r.LocationId == locationId && r.Status == "Approved");
 
             if (!hasUserContributed && justApproved) hasUserContributed = true;
+            if (!hasUserContributed) return;
 
-            if (!hasUserContributed) return; // Nu primește nimic dacă nu a contribuit
-
-            // 2. Calculăm numărul TOTAL de recenzii aprobate ale localului (pentru Threshold)
+            // 2. Calculăm numărul TOTAL de recenzii aprobate ale localului
             int locationTotalReviews = await _context.Reviews
                 .CountAsync(r => r.LocationId == locationId && r.Status == "Approved");
-            if (justApproved)
-            {
-                // Verificăm dacă count-ul include review-ul curent. 
-                // Oricum, e mai sigur să luăm count-ul și să verificăm dacă e < prag, dar poate +1 ajută.
-                // Totuși, codul tău actual pare corect logic DUPĂ ce ai mutat SaveChanges.
-            }
-            // 3. Căutăm cupoane unde localul a atins pragul de popularitate
+
+            // 3. Căutăm cupoane active unde pragul de popularitate ȘI pragul de nivel sunt atinse
             var availableCoupons = await _context.Coupons
                 .Where(c => c.LocationId == locationId
                             && c.IsActive
-                            && c.ExpirationDate > DateTime.Now)
+                            && c.ExpirationDate > DateTime.Now
+                            && c.RequiredLevel <= user.Level) // LOGICA DE NIVEL AICI
                 .ToListAsync();
 
             foreach (var coupon in availableCoupons)
@@ -147,7 +146,7 @@ namespace Revia.Services
                 if (coupon.RequiredReviewsCount <= locationTotalReviews)
                 {
                     bool alreadyHas = await _context.UserCoupons
-                    .AnyAsync(uc => uc.UserId == userId && uc.CouponId == coupon.Id);
+                        .AnyAsync(uc => uc.UserId == userId && uc.CouponId == coupon.Id);
 
                     if (!alreadyHas)
                     {
@@ -162,7 +161,7 @@ namespace Revia.Services
                         _context.Notifications.Add(new Notification
                         {
                             UserId = userId,
-                            Text = $"Ai deblocat un cupon la '{coupon.Location?.Name ?? "Local"}'! ({coupon.Title})",
+                            Text = $"Bravo! Ai deblocat un cupon exclusiv la '{coupon.Location?.Name ?? "Local"}'! ({coupon.Title})",
                             Date = DateTime.Now
                         });
                     }

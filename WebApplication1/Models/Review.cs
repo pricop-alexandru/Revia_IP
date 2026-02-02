@@ -25,7 +25,7 @@ namespace Revia.Models
 
         [ForeignKey("UserId")]
         public virtual ApplicationUser User { get; set; }
-
+        public string? ImageUrl { get; set; }
         [Required]
         public int LocationId { get; set; }
 

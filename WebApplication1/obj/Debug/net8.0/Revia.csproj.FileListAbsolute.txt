@@ -1,573 +1,285 @@
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\obj\Debug\net8.0\Revia.csproj.AssemblyReference.cache
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\obj\Debug\net8.0\Revia.GeneratedMSBuildEditorConfig.editorconfig
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\obj\Debug\net8.0\Revia.AssemblyInfoInputs.cache
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\obj\Debug\net8.0\Revia.AssemblyInfo.cs
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\obj\Debug\net8.0\Revia.csproj.CoreCompileInputs.cache
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\obj\Debug\net8.0\Revia.MvcApplicationPartsAssemblyInfo.cs
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\obj\Debug\net8.0\Revia.MvcApplicationPartsAssemblyInfo.cache
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\obj\Debug\net8.0\Revia.RazorAssemblyInfo.cache
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\obj\Debug\net8.0\Revia.RazorAssemblyInfo.cs
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\appsettings.Development.json
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\appsettings.json
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\Revia.staticwebassets.runtime.json
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\Revia.staticwebassets.endpoints.json
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\Revia.exe
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\Revia.deps.json
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\Revia.runtimeconfig.json
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\Revia.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\Revia.pdb
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\Azure.Core.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\Azure.Identity.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\Humanizer.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.UI.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Embedded.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\Microsoft.Identity.Client.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\Mono.TextTemplating.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\System.ClientModel.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\System.CodeDom.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\System.Composition.AttributedModel.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\System.Composition.Convention.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\System.Composition.Hosting.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\System.Composition.Runtime.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\System.Composition.TypedParts.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\System.Memory.Data.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\System.Runtime.Caching.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\obj\Debug\net8.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\obj\Debug\net8.0\scopedcss\bundle\Revia.styles.css
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\obj\Debug\net8.0\scopedcss\projectbundle\Revia.bundle.scp.css
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\obj\Debug\net8.0\staticwebassets.build.json
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\obj\Debug\net8.0\staticwebassets.build.json.cache
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\obj\Debug\net8.0\staticwebassets.development.json
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\obj\Debug\net8.0\Revia.csproj.Up2Date
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\obj\Debug\net8.0\Revia.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\obj\Debug\net8.0\refint\Revia.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\obj\Debug\net8.0\Revia.pdb
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\obj\Debug\net8.0\Revia.genruntimeconfig.cache
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\obj\Debug\net8.0\ref\Revia.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\Microsoft.AspNetCore.Razor.Language.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\Microsoft.Build.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\Microsoft.Build.Framework.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Features.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\Microsoft.CodeAnalysis.Elfie.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\Microsoft.CodeAnalysis.Features.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\Microsoft.CodeAnalysis.Razor.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\Microsoft.CodeAnalysis.Scripting.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\Microsoft.DiaSymReader.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\Microsoft.DotNet.Scaffolding.Shared.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\Microsoft.NET.StringTools.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\dotnet-aspnet-codegenerator-design.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\Newtonsoft.Json.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\NuGet.Common.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\NuGet.Configuration.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\NuGet.DependencyResolver.Core.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\NuGet.Frameworks.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\NuGet.LibraryModel.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\NuGet.Packaging.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\NuGet.ProjectModel.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\NuGet.Protocol.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\NuGet.Versioning.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\System.Reflection.MetadataLoadContext.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\System.Text.Json.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\af\Humanizer.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\ar\Humanizer.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\az\Humanizer.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\bg\Humanizer.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\bn-BD\Humanizer.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\cs\Humanizer.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\da\Humanizer.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\de\Humanizer.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\el\Humanizer.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\es\Humanizer.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\fa\Humanizer.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\fi-FI\Humanizer.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\fr\Humanizer.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\fr-BE\Humanizer.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\he\Humanizer.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\hr\Humanizer.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\hu\Humanizer.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\hy\Humanizer.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\id\Humanizer.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\is\Humanizer.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\it\Humanizer.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\ja\Humanizer.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\ko-KR\Humanizer.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\ku\Humanizer.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\lv\Humanizer.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\ms-MY\Humanizer.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\mt\Humanizer.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\nb\Humanizer.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\nb-NO\Humanizer.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\nl\Humanizer.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\pl\Humanizer.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\pt\Humanizer.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\ro\Humanizer.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\ru\Humanizer.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\sk\Humanizer.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\sl\Humanizer.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\sr\Humanizer.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\sr-Latn\Humanizer.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\sv\Humanizer.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\th-TH\Humanizer.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\tr\Humanizer.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\uk\Humanizer.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\uz-Cyrl-UZ\Humanizer.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\uz-Latn-UZ\Humanizer.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\vi\Humanizer.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\zh-CN\Humanizer.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\zh-Hans\Humanizer.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\zh-Hant\Humanizer.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Features.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Features.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Features.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\Microsoft.Data.Sqlite.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Sqlite.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\SQLitePCLRaw.batteries_v2.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\SQLitePCLRaw.core.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\SQLitePCLRaw.provider.e_sqlite3.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\runtimes\browser-wasm\nativeassets\net8.0\e_sqlite3.a
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\runtimes\linux-arm\native\libe_sqlite3.so
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\runtimes\linux-arm64\native\libe_sqlite3.so
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\runtimes\linux-armel\native\libe_sqlite3.so
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\runtimes\linux-mips64\native\libe_sqlite3.so
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\runtimes\linux-musl-arm\native\libe_sqlite3.so
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\runtimes\linux-musl-arm64\native\libe_sqlite3.so
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\runtimes\linux-ppc64le\native\libe_sqlite3.so
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\runtimes\linux-s390x\native\libe_sqlite3.so
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\runtimes\linux-x64\native\libe_sqlite3.so
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\runtimes\linux-x86\native\libe_sqlite3.so
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\runtimes\maccatalyst-arm64\native\libe_sqlite3.dylib
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\runtimes\maccatalyst-x64\native\libe_sqlite3.dylib
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\runtimes\osx-arm64\native\libe_sqlite3.dylib
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\runtimes\osx-x64\native\libe_sqlite3.dylib
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\runtimes\win-arm\native\e_sqlite3.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\runtimes\win-arm64\native\e_sqlite3.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\runtimes\win-x64\native\e_sqlite3.dll
-D:\Faculty\An 4\Sem 1\IP\Proiect IP\Revia\WebApplication1\bin\Debug\net8.0\runtimes\win-x86\native\e_sqlite3.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\appsettings.Development.json
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\appsettings.json
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\Revia.staticwebassets.runtime.json
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\Revia.staticwebassets.endpoints.json
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\Revia.exe
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\Revia.deps.json
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\Revia.runtimeconfig.json
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\Revia.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\Revia.pdb
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\Azure.Core.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\Azure.Identity.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\Humanizer.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.UI.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\Microsoft.AspNetCore.Razor.Language.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\Microsoft.Build.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\Microsoft.Build.Framework.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Features.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\Microsoft.CodeAnalysis.Elfie.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\Microsoft.CodeAnalysis.Features.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\Microsoft.CodeAnalysis.Razor.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\Microsoft.CodeAnalysis.Scripting.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\Microsoft.Data.Sqlite.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\Microsoft.DiaSymReader.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\Microsoft.DotNet.Scaffolding.Shared.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Sqlite.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Embedded.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\Microsoft.Identity.Client.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\Microsoft.NET.StringTools.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\dotnet-aspnet-codegenerator-design.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\Mono.TextTemplating.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\Newtonsoft.Json.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\NuGet.Common.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\NuGet.Configuration.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\NuGet.DependencyResolver.Core.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\NuGet.Frameworks.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\NuGet.LibraryModel.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\NuGet.Packaging.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\NuGet.ProjectModel.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\NuGet.Protocol.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\NuGet.Versioning.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\SQLitePCLRaw.batteries_v2.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\SQLitePCLRaw.core.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\SQLitePCLRaw.provider.e_sqlite3.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\System.ClientModel.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\System.CodeDom.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\System.Composition.AttributedModel.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\System.Composition.Convention.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\System.Composition.Hosting.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\System.Composition.Runtime.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\System.Composition.TypedParts.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\System.Memory.Data.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\System.Reflection.MetadataLoadContext.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\System.Runtime.Caching.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\af\Humanizer.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\ar\Humanizer.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\az\Humanizer.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\bg\Humanizer.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\bn-BD\Humanizer.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\cs\Humanizer.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\da\Humanizer.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\de\Humanizer.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\el\Humanizer.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\es\Humanizer.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\fa\Humanizer.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\fi-FI\Humanizer.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\fr\Humanizer.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\fr-BE\Humanizer.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\he\Humanizer.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\hr\Humanizer.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\hu\Humanizer.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\hy\Humanizer.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\id\Humanizer.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\is\Humanizer.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\it\Humanizer.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\ja\Humanizer.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\ko-KR\Humanizer.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\ku\Humanizer.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\lv\Humanizer.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\ms-MY\Humanizer.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\mt\Humanizer.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\nb\Humanizer.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\nb-NO\Humanizer.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\nl\Humanizer.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\pl\Humanizer.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\pt\Humanizer.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\ro\Humanizer.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\ru\Humanizer.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\sk\Humanizer.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\sl\Humanizer.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\sr\Humanizer.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\sr-Latn\Humanizer.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\sv\Humanizer.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\th-TH\Humanizer.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\tr\Humanizer.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\uk\Humanizer.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\uz-Cyrl-UZ\Humanizer.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\uz-Latn-UZ\Humanizer.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\vi\Humanizer.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\zh-CN\Humanizer.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\zh-Hans\Humanizer.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\zh-Hant\Humanizer.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Features.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Features.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Features.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\runtimes\browser-wasm\nativeassets\net8.0\e_sqlite3.a
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\runtimes\linux-arm\native\libe_sqlite3.so
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\runtimes\linux-arm64\native\libe_sqlite3.so
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\runtimes\linux-armel\native\libe_sqlite3.so
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\runtimes\linux-mips64\native\libe_sqlite3.so
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\runtimes\linux-musl-arm\native\libe_sqlite3.so
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\runtimes\linux-musl-arm64\native\libe_sqlite3.so
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\runtimes\linux-ppc64le\native\libe_sqlite3.so
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\runtimes\linux-s390x\native\libe_sqlite3.so
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\runtimes\linux-x64\native\libe_sqlite3.so
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\runtimes\linux-x86\native\libe_sqlite3.so
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\runtimes\maccatalyst-arm64\native\libe_sqlite3.dylib
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\runtimes\maccatalyst-x64\native\libe_sqlite3.dylib
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\runtimes\osx-arm64\native\libe_sqlite3.dylib
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\runtimes\osx-x64\native\libe_sqlite3.dylib
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\runtimes\win-arm\native\e_sqlite3.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\runtimes\win-arm64\native\e_sqlite3.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\runtimes\win-x64\native\e_sqlite3.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\runtimes\win-x86\native\e_sqlite3.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\obj\Debug\net8.0\Revia.csproj.AssemblyReference.cache
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\obj\Debug\net8.0\rpswa.dswa.cache.json
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\obj\Debug\net8.0\Revia.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\obj\Debug\net8.0\Revia.AssemblyInfoInputs.cache
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\obj\Debug\net8.0\Revia.AssemblyInfo.cs
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\obj\Debug\net8.0\Revia.csproj.CoreCompileInputs.cache
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\obj\Debug\net8.0\Revia.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\obj\Debug\net8.0\Revia.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\obj\Debug\net8.0\Revia.RazorAssemblyInfo.cache
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\obj\Debug\net8.0\Revia.RazorAssemblyInfo.cs
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\obj\Debug\net8.0\rjimswa.dswa.cache.json
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\obj\Debug\net8.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\obj\Debug\net8.0\scopedcss\bundle\Revia.styles.css
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\obj\Debug\net8.0\scopedcss\projectbundle\Revia.bundle.scp.css
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\obj\Debug\net8.0\staticwebassets.build.json
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\obj\Debug\net8.0\staticwebassets.build.json.cache
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\obj\Debug\net8.0\staticwebassets.development.json
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\obj\Debug\net8.0\Revia.csproj.Up2Date
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\obj\Debug\net8.0\Revia.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\obj\Debug\net8.0\refint\Revia.dll
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\obj\Debug\net8.0\Revia.pdb
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\obj\Debug\net8.0\Revia.genruntimeconfig.cache
-C:\Users\Alegz\source\repos\Proiect IP\WebApplication1\obj\Debug\net8.0\ref\Revia.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\appsettings.Development.json
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\appsettings.json
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\Revia.staticwebassets.runtime.json
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\Revia.staticwebassets.endpoints.json
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\Revia.exe
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\Revia.deps.json
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\Revia.runtimeconfig.json
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\Revia.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\Revia.pdb
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\Azure.Core.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\Azure.Identity.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\Humanizer.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.UI.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\Microsoft.AspNetCore.Razor.Language.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\Microsoft.Build.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\Microsoft.Build.Framework.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\Microsoft.CodeAnalysis.Elfie.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\Microsoft.CodeAnalysis.Features.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\Microsoft.CodeAnalysis.Razor.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\Microsoft.CodeAnalysis.Scripting.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\Microsoft.Data.Sqlite.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\Microsoft.DiaSymReader.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\Microsoft.DotNet.Scaffolding.Shared.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Embedded.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\Microsoft.NET.StringTools.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\dotnet-aspnet-codegenerator-design.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\NuGet.Common.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\NuGet.Configuration.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\NuGet.DependencyResolver.Core.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\NuGet.Frameworks.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\NuGet.LibraryModel.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\NuGet.Packaging.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\NuGet.ProjectModel.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\NuGet.Protocol.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\NuGet.Versioning.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\SQLitePCLRaw.batteries_v2.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\SQLitePCLRaw.core.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\SQLitePCLRaw.provider.e_sqlite3.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\System.ClientModel.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\System.CodeDom.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\System.Memory.Data.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\System.Reflection.MetadataLoadContext.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\System.Text.Json.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\af\Humanizer.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\ar\Humanizer.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\az\Humanizer.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\bg\Humanizer.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\bn-BD\Humanizer.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\cs\Humanizer.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\da\Humanizer.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\de\Humanizer.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\el\Humanizer.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\es\Humanizer.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\fa\Humanizer.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\fi-FI\Humanizer.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\fr\Humanizer.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\fr-BE\Humanizer.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\he\Humanizer.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\hr\Humanizer.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\hu\Humanizer.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\hy\Humanizer.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\id\Humanizer.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\is\Humanizer.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\it\Humanizer.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\ja\Humanizer.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\ko-KR\Humanizer.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\ku\Humanizer.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\lv\Humanizer.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\ms-MY\Humanizer.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\mt\Humanizer.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\nb\Humanizer.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\nb-NO\Humanizer.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\nl\Humanizer.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\pl\Humanizer.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\pt\Humanizer.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\ro\Humanizer.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\ru\Humanizer.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\sk\Humanizer.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\sl\Humanizer.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\sr\Humanizer.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\sr-Latn\Humanizer.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\sv\Humanizer.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\th-TH\Humanizer.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\tr\Humanizer.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\uk\Humanizer.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\uz-Cyrl-UZ\Humanizer.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\uz-Latn-UZ\Humanizer.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\vi\Humanizer.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\zh-CN\Humanizer.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\zh-Hans\Humanizer.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\zh-Hant\Humanizer.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\runtimes\browser-wasm\nativeassets\net8.0\e_sqlite3.a
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\runtimes\linux-arm\native\libe_sqlite3.so
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\runtimes\linux-arm64\native\libe_sqlite3.so
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\runtimes\linux-armel\native\libe_sqlite3.so
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\runtimes\linux-mips64\native\libe_sqlite3.so
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\runtimes\linux-musl-arm\native\libe_sqlite3.so
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\runtimes\linux-musl-arm64\native\libe_sqlite3.so
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\runtimes\linux-ppc64le\native\libe_sqlite3.so
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\runtimes\linux-s390x\native\libe_sqlite3.so
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\runtimes\linux-x64\native\libe_sqlite3.so
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\runtimes\linux-x86\native\libe_sqlite3.so
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\runtimes\maccatalyst-arm64\native\libe_sqlite3.dylib
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\runtimes\maccatalyst-x64\native\libe_sqlite3.dylib
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\runtimes\osx-arm64\native\libe_sqlite3.dylib
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\runtimes\osx-x64\native\libe_sqlite3.dylib
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\runtimes\win-arm\native\e_sqlite3.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\runtimes\win-arm64\native\e_sqlite3.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\runtimes\win-x64\native\e_sqlite3.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\runtimes\win-x86\native\e_sqlite3.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\obj\Debug\net8.0\Revia.csproj.AssemblyReference.cache
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\obj\Debug\net8.0\Revia.GeneratedMSBuildEditorConfig.editorconfig
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\obj\Debug\net8.0\Revia.AssemblyInfoInputs.cache
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\obj\Debug\net8.0\Revia.AssemblyInfo.cs
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\obj\Debug\net8.0\Revia.csproj.CoreCompileInputs.cache
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\obj\Debug\net8.0\Revia.MvcApplicationPartsAssemblyInfo.cs
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\obj\Debug\net8.0\Revia.MvcApplicationPartsAssemblyInfo.cache
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\obj\Debug\net8.0\Revia.RazorAssemblyInfo.cache
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\obj\Debug\net8.0\Revia.RazorAssemblyInfo.cs
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\obj\Debug\net8.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\obj\Debug\net8.0\scopedcss\bundle\Revia.styles.css
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\obj\Debug\net8.0\scopedcss\projectbundle\Revia.bundle.scp.css
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\obj\Debug\net8.0\staticwebassets.build.json
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\obj\Debug\net8.0\staticwebassets.build.json.cache
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\obj\Debug\net8.0\staticwebassets.development.json
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\obj\Debug\net8.0\Revia.csproj.Up2Date
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\obj\Debug\net8.0\Revia.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\obj\Debug\net8.0\refint\Revia.dll
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\obj\Debug\net8.0\Revia.pdb
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\obj\Debug\net8.0\Revia.genruntimeconfig.cache
+D:\Faculty\An 4\Sem 1\IP\Proiect IP - Copy\Revia\WebApplication1\obj\Debug\net8.0\ref\Revia.dll

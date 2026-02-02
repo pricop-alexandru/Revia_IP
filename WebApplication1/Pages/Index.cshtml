@@ -4,103 +4,134 @@
     ViewData["Title"] = "Acasă";
 }
 
-@* Hero Section - Jumbotron modernizat - Fundal alb și text contrastant negru *@
-<div class="p-5 text-center bg-white rounded-3 shadow-lg border border-secondary border-opacity-25">
-    <h1 class="display-3 fw-bold text-dark">
-        <i class="fas fa-coffee text-primary me-2"></i> Revia
+@* Hero Section *@
+<div class="p-5 text-center bg-white rounded-3 shadow-sm border border-secondary border-opacity-10 mb-5">
+    <h1 class="display-4 fw-bold text-dark">
+        <i class="fas fa-rocket text-primary me-2"></i> Revia
     </h1>
-    <p class="lead text-muted mb-5">
-        Descoperă cele mai bune localuri din comunitatea ta.
-        **Recenzii autentice. Recompense pe măsură.**
+    <p class="lead text-muted mb-4">
+        Descoperă localuri autentice. Scrie recenzii. **Deblochează recompense.**
     </p>
 
     <div class="d-grid gap-3 d-sm-flex justify-content-sm-center">
-        @* Butoanele rămân la fel, doar le dăm text negru dacă sunt outline *@
-        <a asp-page="/Locations/Index" class="btn btn-primary btn-lg px-5 shadow-sm text-uppercase fw-bold">
-            <i class="fas fa-search me-2"></i> Explorează Localuri
+        <a asp-page="/Locations/Index" class="btn btn-primary btn-lg px-5 shadow-sm fw-bold">
+            <i class="fas fa-search me-2"></i> Explorează
         </a>
 
         @if (User.IsInRole("Owner"))
         {
-            <a asp-page="/Locations/Create" class="btn btn-success btn-lg px-4 shadow-sm">
+            <a asp-page="/Locations/Create" class="btn btn-success btn-lg px-4 shadow-sm fw-bold">
                 <i class="fas fa-plus me-2"></i> Adaugă Local Nou
             </a>
         }
 
         @if (!User.Identity.IsAuthenticated)
         {
-            @* Butonul de înregistrare devine outline-dark (negru conturat) *@
-            <a asp-area="Identity" asp-page="/Account/Register" class="btn btn-outline-dark btn-lg px-4 shadow-sm">
-                <i class="fas fa-user-plus me-2"></i> Înregistrează-te
+            <a asp-area="Identity" asp-page="/Account/Register" class="btn btn-outline-dark btn-lg px-4">
+                Înregistrare
             </a>
         }
     </div>
 </div>
 
-<hr class="my-5 border-secondary" />
-
-@* Secțiunea de Caracteristici - Carduri pe fundal alb/luminos *@
-<div class="row text-center">
-
-    @* Card 1: Local *@
-    <div class="col-md-4 mb-4">
-        <div class="card h-100 bg-white border shadow-sm p-3 lift-on-hover">
-            @* bg-white, border-ul implicit e ok *@
-            <div class="card-body">
-                <i class="fas fa-map-marker-alt fa-3x text-primary mb-3"></i>
-                <h3 class="card-title fw-bold text-dark">Descoperă</h3>
-                <p class="card-text text-muted">Găsește locuri ascunse chiar în cartierul tău, indiferent de nișă.</p>
-            </div>
+@* --- SECȚIUNEA 1: OUR PICKS (PARTENERI) --- *@
+@if (Model.OurPicks.Any())
+{
+    <div class="mb-5">
+        <div class="d-flex align-items-center mb-4">
+            <h2 class="fw-bold mb-0"><i class="fas fa-award text-warning me-2"></i> Our Picks</h2>
+            <hr class="flex-grow-1 ms-3 border-warning opacity-50">
         </div>
-    </div>
 
-    @* Card 2: Autentic *@
-    <div class="col-md-4 mb-4">
-        <div class="card h-100 bg-white border shadow-sm p-3 lift-on-hover">
-            <div class="card-body">
-                <i class="fas fa-star fa-3x text-warning mb-3"></i>
-                <h3 class="card-title fw-bold text-dark">Autentic</h3>
-                <p class="card-text text-muted">Recenzii verificate de "Local Guides" și scrise de o comunitate reală.</p>
-            </div>
-        </div>
-    </div>
-
-    @* Card 3: Gamificat *@
-    <div class="col-md-4 mb-4">
-        <div class="card h-100 bg-white border shadow-sm p-3 lift-on-hover">
-            <div class="card-body">
-                <i class="fas fa-level-up-alt fa-3x text-success mb-3"></i>
-                <h3 class="card-title fw-bold text-dark">Recompensat</h3>
-                <p class="card-text text-muted">Primești XP și crești în nivel pentru fiecare contribuție, devenind un Local Guide.</p>
-            </div>
-        </div>
-    </div>
-    @if (Model.TopLocations.Any())
-    {
         <div class="row">
-            @foreach (var item in Model.TopLocations)
+            @foreach (var item in Model.OurPicks)
             {
                 <div class="col-md-4 mb-4">
-                    <div class="card h-100 shadow-sm border-0">
+                    <div class="card h-100 border-warning shadow position-relative overflow-hidden">
+                        <div class="position-absolute top-0 end-0 bg-warning text-dark px-3 py-1 fw-bold small shadow-sm" style="border-bottom-left-radius: 10px; z-index: 1;">
+                            PARTENER
+                        </div>
                         @if (!string.IsNullOrEmpty(item.ImageUrl))
                         {
-                            <img src="@item.ImageUrl" class="card-img-top" alt="@item.Name" style="height: 200px; object-fit: cover;">
+                            <img src="@item.ImageUrl" class="card-img-top" alt="@item.Name" style="height: 180px; object-fit: cover;">
                         }
                         <div class="card-body">
                             <h5 class="card-title fw-bold">@item.Name</h5>
-
-                            <div class="mb-2 text-warning">
-                                <span class="fw-bold text-dark me-1">@item.AverageRating</span>
-                                <i class="fas fa-star"></i>
-                                <span class="text-muted small">(@item.ReviewCount recenzii)</span>
+                            <div class="mb-2">
+                                <span class="badge bg-light text-dark border">
+                                    <i class="fas fa-star text-warning"></i> @item.AverageRating
+                                </span>
                             </div>
-
-                            <p class="card-text text-muted small"><i class="fas fa-map-marker-alt me-1"></i> @item.Address</p>
-                            <a asp-page="/Locations/Details" asp-route-id="@item.Id" class="btn btn-outline-primary btn-sm w-100">Vezi Localul</a>
+                            <p class="card-text text-muted small">@item.Address</p>
+                            <a asp-page="/Locations/Details" asp-route-id="@item.Id" class="btn btn-warning btn-sm w-100 fw-bold">Vezi Oferte Exclusive</a>
                         </div>
                     </div>
                 </div>
             }
         </div>
-    }
+    </div>
+}
+
+@* --- SECȚIUNEA 2: TRENDING SPOTS --- *@
+<div class="mb-5">
+    <div class="d-flex align-items-center mb-4">
+        <h2 class="fw-bold mb-0"><i class="fas fa-fire text-danger me-2"></i> Trending Spots</h2>
+        <hr class="flex-grow-1 ms-3 opacity-25">
+    </div>
+
+    <div class="row">
+        @foreach (var item in Model.TrendingSpots)
+        {
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 border-0 shadow-sm lift-on-hover">
+                    @if (!string.IsNullOrEmpty(item.ImageUrl))
+                    {
+                        <img src="@item.ImageUrl" class="card-img-top" alt="@item.Name" style="height: 160px; object-fit: cover; filter: grayscale(20%);">
+                    }
+                    <div class="card-body">
+                        <h6 class="text-uppercase text-primary fw-bold x-small mb-1">Popular acum</h6>
+                        <h5 class="card-title fw-bold">@item.Name</h5>
+                        <p class="text-muted small mb-3">
+                            <i class="fas fa-comments me-1"></i> @item.Reviews.Count(r => r.Status == "Approved") recenzii comunitate
+                        </p>
+                        <a asp-page="/Locations/Details" asp-route-id="@item.Id" class="btn btn-outline-primary btn-sm w-100">Explorează</a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
 </div>
+
+@* Secțiunea Caracteristici (păstrată la final) *@
+<div class="row text-center py-4 bg-light rounded-3 g-4">
+    <div class="col-md-4">
+        <i class="fas fa-map-marked-alt fa-2x text-primary mb-2"></i>
+        <h5 class="fw-bold">Descoperă</h5>
+        <p class="small text-muted">Locuri noi validate de comunitate.</p>
+    </div>
+    <div class="col-md-4">
+        <i class="fas fa-shield-alt fa-2x text-success mb-2"></i>
+        <h5 class="fw-bold">Verificat</h5>
+        <p class="small text-muted">Recenzii reale, zero spam.</p>
+    </div>
+    <div class="col-md-4">
+        <i class="fas fa-gift fa-2x text-danger mb-2"></i>
+        <h5 class="fw-bold">Câștigă</h5>
+        <p class="small text-muted">XP și cupoane la fiecare pas.</p>
+    </div>
+</div>
+
+<style>
+    .lift-on-hover {
+        transition: transform 0.2s ease-in-out, shadow 0.2s ease-in-out;
+    }
+
+        .lift-on-hover:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+        }
+
+    .x-small {
+        font-size: 0.7rem;
+    }
+</style>

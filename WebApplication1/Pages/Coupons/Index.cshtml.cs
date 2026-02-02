@@ -24,38 +24,54 @@ namespace Revia.Pages.Coupons
         public List<CouponViewModel> CouponsList { get; set; } = new();
         public bool IsOwnerOfLocation { get; set; }
 
+        // Proprietate necesară pentru a verifica nivelul în UI (Index.cshtml)
+        public int UserLevel { get; set; }
+
         public class CouponViewModel
         {
             public Coupon Coupon { get; set; }
-            public bool UserHasIt { get; set; } // Îl are deja?
-            public bool IsClaimed { get; set; } // L-a consumat?
-            public int LocationTotalReviews { get; set; } // Total review-uri locație
+            public bool UserHasIt { get; set; } // Dacă userul are deja cuponul în portofel
+            public bool IsClaimed { get; set; } // Dacă a fost deja scanat/folosit
+            public int LocationTotalReviews { get; set; } // Totalul de review-uri aprobate ale locației
         }
 
         public async Task<IActionResult> OnGetAsync(int locationId)
         {
+            // 1. Încărcăm locația și proprietarul pentru a verifica drepturile de editare
             Location = await _context.Locations
                 .Include(l => l.Owner)
                 .FirstOrDefaultAsync(l => l.Id == locationId);
 
             if (Location == null) return NotFound();
 
+            // 2. Obținem datele utilizatorului logat
             var currentUser = await _userManager.GetUserAsync(User);
-            IsOwnerOfLocation = Location.Owner.ApplicationUserId == currentUser.Id;
+            if (currentUser == null) return Challenge();
 
-            // Toate cupoanele active ale locației
+            // 3. Setăm starea paginii
+            IsOwnerOfLocation = Location.Owner?.ApplicationUserId == currentUser.Id;
+            UserLevel = currentUser.Level;
+
+            // 4. Preluăm toate cupoanele active ale locației
+            // Sortăm mai întâi după nivelul cerut (RequiredLevel) pentru a arăta progresia
             var locationCoupons = await _context.Coupons
                 .Where(c => c.LocationId == locationId && c.IsActive && c.ExpirationDate > DateTime.Now)
-                .OrderBy(c => c.RequiredReviewsCount)
+                .OrderBy(c => c.RequiredLevel)
+                .ThenBy(c => c.RequiredReviewsCount)
                 .ToListAsync();
 
-            // Ce cupoane deține deja userul?
+            // 5. Vedem ce cupoane deține deja userul la această locație specifică
             var myUserCoupons = await _context.UserCoupons
                 .Where(uc => uc.UserId == currentUser.Id && uc.Coupon.LocationId == locationId)
                 .ToListAsync();
-            // Total review-uri locație (pentru afișare în view)
+
+            // 6. Calculăm popularitatea totală a locației (doar review-uri aprobate)
             int locationTotalReviews = await _context.Reviews
                 .CountAsync(r => r.LocationId == locationId && r.Status == "Approved");
+
+            // 7. Construim lista pentru View
+            CouponsList = new List<CouponViewModel>();
+
             foreach (var coupon in locationCoupons)
             {
                 var userCoupon = myUserCoupons.FirstOrDefault(uc => uc.CouponId == coupon.Id);
@@ -72,21 +88,29 @@ namespace Revia.Pages.Coupons
             return Page();
         }
 
-        // Ownerul poate șterge un cupon
+        // Handler pentru ștergerea cuponului (disponibil doar ownerului)
         public async Task<IActionResult> OnPostDeleteAsync(int couponId, int locationId)
         {
+            var user = await _userManager.GetUserAsync(User);
+            if (user == null) return Challenge();
+
             var coupon = await _context.Coupons
-                .Include(c => c.Location).ThenInclude(l => l.Owner)
+                .Include(c => c.Location)
+                .ThenInclude(l => l.Owner)
                 .FirstOrDefaultAsync(c => c.Id == couponId);
 
-            var user = await _userManager.GetUserAsync(User);
-
+            // Verificăm dacă cel care șterge este chiar proprietarul locației
             if (coupon != null && coupon.Location.Owner.ApplicationUserId == user.Id)
             {
                 _context.Coupons.Remove(coupon);
                 await _context.SaveChangesAsync();
-                TempData["SuccessMessage"] = "Cupon șters.";
+                TempData["SuccessMessage"] = "Oferta a fost eliminată cu succes.";
             }
+            else
+            {
+                TempData["ErrorMessage"] = "Nu ai permisiunea de a șterge această ofertă.";
+            }
+
             return RedirectToPage(new { locationId = locationId });
         }
     }

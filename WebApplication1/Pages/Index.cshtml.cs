@@ -2,9 +2,6 @@
 using Microsoft.EntityFrameworkCore;
 using Revia.Data;
 using Revia.Models;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace Revia.Pages
 {
@@ -17,21 +14,29 @@ namespace Revia.Pages
             _context = context;
         }
 
-        public List<Location> TopLocations { get; set; } = new();
+        public List<Location> OurPicks { get; set; } = new();
+        public List<Location> TrendingSpots { get; set; } = new();
 
         public async Task OnGetAsync()
         {
-            // Aducem toate localurile aprobate cu review-uri
-            // (Facem sortarea în memorie pentru că AverageRating nu e în SQL)
-            var allLocations = await _context.Locations
+            // 1. Our Picks: Locații Parteneri Oficiali (IsOfficialPartner == true)
+            OurPicks = await _context.Locations
+                .Include(l => l.Reviews)
+                .Where(l => l.Status == "Approved" && l.IsOfficialPartner)
+                .Take(3)
+                .ToListAsync();
+
+            // 2. Trending Spots: Cele mai multe recenzii aprobate
+            // Sortăm în memorie pentru a folosi proprietatea ReviewCount calculată
+            var approvedLocations = await _context.Locations
                 .Include(l => l.Reviews)
                 .Where(l => l.Status == "Approved")
                 .ToListAsync();
 
-            TopLocations = allLocations
-                .OrderByDescending(l => l.AverageRating)
-                .ThenByDescending(l => l.ReviewCount)
-                .Take(3)
+            TrendingSpots = approvedLocations
+                .OrderByDescending(l => l.Reviews.Count(r => r.Status == "Approved"))
+                .ThenByDescending(l => l.AverageRating)
+                .Take(6)
                 .ToList();
         }
     }

@@ -10,10 +10,13 @@ namespace Revia.Models
         public string Name { get; set; } // Ex: Hotel Transilvania
         public string Description { get; set; }
         public string Address { get; set; }
+        public string City { get; set; }
+        public string Category { get; set; }
         public string? ImageUrl { get; set; }
         public string Status { get; set; } = "Pending"; // Pending, Approved, Rejected - Nou!
                                                         // Relația cu Proprietarul (Owner)
                                                         // O locație aparține unui singur Owner
+        public bool IsOfficialPartner { get; set; } = false;
         public int? OwnerId { get; set; }
         public virtual Owner Owner { get; set; }
         // O locație are multe recenzii

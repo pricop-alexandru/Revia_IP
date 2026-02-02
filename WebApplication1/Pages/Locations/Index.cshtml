@@ -5,35 +5,76 @@
 }
 
 <div class="text-center mb-5">
-    <h1 class="display-4">Descoperă Localuri</h1>
-    <p class="text-muted">Vezi ce recomandă comunitatea Revia.</p>
+    <h1 class="display-4 fw-bold">Explorează Localuri</h1>
+    <p class="text-muted">Filtrează după orașul tău și descoperă cele mai bune experiențe.</p>
 </div>
 
-@if (TempData["SuccessMessage"] != null)
-{
-    <div class="alert alert-success alert-dismissible fade show text-center">
-        @TempData["SuccessMessage"]
-        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
-    </div>
-}
+@* Zona de Filtre și Sortare *@
+<div class="card shadow-sm border-0 mb-4">
+    <div class="card-body">
+        <form method="get" class="row g-3 align-items-end">
+            <input type="hidden" name="sortOrder" value="@ViewData["CurrentSort"]" />
 
-@if (TempData["ErrorMessage"] != null)
-{
-    <div class="alert alert-danger alert-dismissible fade show text-center">
-        @TempData["ErrorMessage"]
-        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
-    </div>
-}
-<div class="d-flex justify-content-end mb-3">
-    <div class="btn-group">
-        <a asp-page="./Index" asp-route-sortOrder="Rating" class="btn btn-outline-dark @(ViewData["CurrentSort"] as string == "Rating" ? "active" : "")">
-            <i class="fas fa-star me-1"></i> Top Rating
-        </a>
-        <a asp-page="./Index" asp-route-sortOrder="" class="btn btn-outline-dark @(string.IsNullOrEmpty(ViewData["CurrentSort"] as string) ? "active" : "")">
-            <i class="fas fa-sort-alpha-down me-1"></i> A-Z
-        </a>
+            <div class="text-center mb-4">
+                <h5 class="text-muted mb-3"><i class="fas fa-bolt text-warning"></i> Vibe Check: Ce cauți astăzi?</h5>
+                <div class="d-flex justify-content-center flex-wrap gap-2">
+                    <a asp-page="./Index" asp-route-searchCity="@ViewData["CurrentCity"]"
+                       class="btn @(string.IsNullOrEmpty(ViewData["CurrentCategory"] as string) ? "btn-dark" : "btn-outline-dark") rounded-pill">
+                        Toate
+                    </a>
+
+                    <a asp-page="./Index" asp-route-searchCategory="Cafenea" asp-route-searchCity="@ViewData["CurrentCity"]"
+                       class="btn @(ViewData["CurrentCategory"] as string == "Cafenea" ? "btn-primary" : "btn-outline-primary") rounded-pill">
+                        <i class="fas fa-laptop me-1"></i> Focus & Work
+                    </a>
+
+                    <a asp-page="./Index" asp-route-searchCategory="Restaurant" asp-route-searchCity="@ViewData["CurrentCity"]"
+                       class="btn @(ViewData["CurrentCategory"] as string == "Restaurant" ? "btn-danger" : "btn-outline-danger") rounded-pill">
+                        <i class="fas fa-utensils me-1"></i> Dinner Date
+                    </a>
+
+                    <a asp-page="./Index" asp-route-searchCategory="Pub" asp-route-searchCity="@ViewData["CurrentCity"]"
+                       class="btn @(ViewData["CurrentCategory"] as string == "Pub" ? "btn-success" : "btn-outline-success") rounded-pill">
+                        <i class="fas fa-glass-cheers me-1"></i> Social Night
+                    </a>
+
+                    <a asp-page="./Index" asp-route-searchCategory="Entertainment" asp-route-searchCity="@ViewData["CurrentCity"]"
+                       class="btn @(ViewData["CurrentCategory"] as string == "Entertainment" ? "btn-info" : "btn-outline-info") rounded-pill">
+                        <i class="fas fa-gamepad me-1"></i> Fun & Games
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <label class="form-label small fw-bold">Filtrează după Oraș</label>
+                <select name="searchCity" class="form-select" onchange="this.form.submit()">
+                    <option value="">Toate Orașele</option>
+                    @foreach (var city in Model.Cities)
+                    {
+                        <option value="@city" selected="@(city == ViewData["CurrentCity"] as string)">@city</option>
+                    }
+                </select>
+            </div>
+
+            
+
+            <div class="col-md-4 text-md-end ms-auto">
+                <label class="form-label d-block small fw-bold">Sortează după</label>
+                <div class="btn-group w-100">
+                    <a asp-page="./Index" asp-route-sortOrder="Rating" asp-route-searchCity="@ViewData["CurrentCity"]"
+                       class="btn btn-outline-primary @(ViewData["CurrentSort"] as string == "Rating" ? "active" : "")">
+                        <i class="fas fa-star me-1"></i> Rating
+                    </a>
+                    <a asp-page="./Index" asp-route-sortOrder="" asp-route-searchCity="@ViewData["CurrentCity"]"
+                       class="btn btn-outline-primary @(string.IsNullOrEmpty(ViewData["CurrentSort"] as string) ? "active" : "")">
+                        <i class="fas fa-sort-alpha-down me-1"></i> A-Z
+                    </a>
+                </div>
+            </div>
+        </form>
     </div>
 </div>
+
 @if (Model.Locations.Any())
 {
     <div class="row">
@@ -41,34 +82,39 @@
         {
             var item = vm.Location;
             <div class="col-md-4 mb-4">
-                <div class="card location-card h-100 position-relative">
+                <div class="card h-100 shadow-sm border-0 position-relative overflow-hidden">
+                    @if (!string.IsNullOrEmpty(item.ImageUrl))
+                    {
+                        <img src="@item.ImageUrl" class="card-img-top" alt="@item.Name" style="height: 180px; object-fit: cover;">
+                    }
                     <div class="card-body">
-                        <h5 class="card-title">@item.Name</h5>
-                        <p class="card-text text-secondary">
-                            <small>📍 @item.Address</small>
-                        </p>
-                        <div class="d-flex justify-content-between align-items-center mt-3">
-                            <span class="badge bg-light text-dark border">
-                                @item.Reviews.Count recenzii
+                        <div class="d-flex justify-content-between align-items-start mb-2">
+                            <h5 class="card-title fw-bold mb-0">@item.Name</h5>
+                            <span class="badge bg-warning text-dark">
+                                <i class="fas fa-star"></i> @item.AverageRating
                             </span>
-                            <a asp-page="./Details" asp-route-id="@item.Id" class="btn btn-sm btn-outline-primary">
-                                Vezi Detalii
+                        </div>
+
+                        <p class="card-text text-muted mb-1">
+                            <i class="fas fa-map-marker-alt text-danger me-1"></i> <strong>@item.City</strong>
+                        </p>
+                        <p class="card-text small text-secondary mb-3">@item.Address</p>
+
+                        <div class="d-flex justify-content-between align-items-center mt-auto">
+                            <span class="small text-muted">@item.ReviewCount recenzii</span>
+                            <a asp-page="./Details" asp-route-id="@item.Id" class="btn btn-sm btn-primary px-3 shadow-sm">
+                                Detalii
                             </a>
                         </div>
                     </div>
 
-                    <!-- Buton Ștergere – vizibil doar dacă CanDelete = true -->
                     @if (vm.CanDelete)
                     {
                         <div class="position-absolute top-0 end-0 p-2">
-                            <form method="post"
-                                  asp-page-handler="@(User.IsInRole("Admin") ? "Delete" : "DeleteOwner")"
-                                  asp-route-id="@item.Id" class="d-inline">
-                                <button type="submit"
-                                        class="btn @(User.IsInRole("Admin") ? "btn-danger" : "btn-outline-danger") btn-sm rounded-circle shadow"
-                                        title="Șterge localul"
-                                        onclick="return confirm('Ești sigur că vrei să ȘTERGI definitiv localul „@item.Name”? Toate recenziile vor fi șterse!');">
-                                    🗑️
+                            <form method="post" asp-page-handler="@(User.IsInRole("Admin") ? "Delete" : "DeleteOwner")" asp-route-id="@item.Id">
+                                <button type="submit" class="btn btn-danger btn-sm rounded-circle shadow-sm"
+                                        onclick="return confirm('Ștergi definitiv locația?');">
+                                    <i class="fas fa-trash-alt"></i>
                                 </button>
                             </form>
                         </div>
@@ -80,10 +126,10 @@
 }
 else
 {
-    <div class="text-center my-5 py-5">
-        <h3 class="text-muted">Încă nu avem localuri aprobate</h3>
-        <p class="lead text-muted">
-            Proprietarii adaugă localuri noi în fiecare zi. Revino curând! ☕
-        </p>
+    <div class="text-center my-5 py-5 bg-white rounded shadow-sm">
+        <i class="fas fa-search-location fa-4x text-muted mb-3"></i>
+        <h3 class="text-muted">Niciun rezultat găsit</h3>
+        <p class="text-muted">Nu am găsit localuri aprobate în <strong>@ViewData["CurrentCity"]</strong>.</p>
+        <a asp-page="./Index" class="btn btn-link">Vezi toate locațiile</a>
     </div>
 }

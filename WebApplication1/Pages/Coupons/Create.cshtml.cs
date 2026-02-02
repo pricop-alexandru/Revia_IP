@@ -31,15 +31,17 @@ namespace Revia.Pages.Coupons
 
         public class CouponInputModel
         {
-            [Required]
-            public string Title { get; set; }
-            public string Description { get; set; }
-            [Required]
-            public DateTime ExpirationDate { get; set; } = DateTime.Now.AddDays(30);
+            [Required(ErrorMessage = "Titlul este obligatoriu.")]
+            public string? Title { get; set; }
 
-            // Checkbox pentru threshold
+            public string? Description { get; set; } // Opțional (va fi null dacă e gol)
+
+            public DateTime? ExpirationDate { get; set; } // Opțional
+
             public bool HasThreshold { get; set; }
-            public int ThresholdCount { get; set; } = 1;
+
+            public int? ThresholdCount { get; set; } // Opțional
+            public int RequiredLevel { get; set; } = 1;
         }
 
         public async Task<IActionResult> OnGetAsync(int locationId)
@@ -60,15 +62,26 @@ namespace Revia.Pages.Coupons
 
         public async Task<IActionResult> OnPostAsync()
         {
-            if (!ModelState.IsValid) return Page();
+            // Ștergem validările automate stricte pentru a gestiona noi valorile nule
+            if (!ModelState.IsValid)
+            {
+                var loc = await _context.Locations.FindAsync(LocationId);
+                LocationName = loc?.Name;
+                return Page();
+            }
 
             var coupon = new Coupon
             {
                 LocationId = LocationId,
                 Title = Input.Title,
-                Description = Input.Description,
-                ExpirationDate = Input.ExpirationDate,
-                RequiredReviewsCount = Input.HasThreshold ? Input.ThresholdCount : 1, // Default 1 review
+                Description = Input.Description, // Rămâne null dacă e gol
+
+                // Dacă data e null, punem Azi + 30 zile
+                ExpirationDate = Input.ExpirationDate ?? DateTime.Now.AddDays(30),
+
+                RequiredLevel = Input.RequiredLevel,
+                RequiredReviewsCount = Input.HasThreshold ? (Input.ThresholdCount ?? 1) : 1,
+
                 IsActive = true
             };
 
